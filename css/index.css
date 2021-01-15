@@ -96,6 +96,10 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.firstrow{
+    display:flex;
+    direction:
+}
 
 .top-content .text-container {
     width: 48%;
