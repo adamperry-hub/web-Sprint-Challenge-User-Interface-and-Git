@@ -117,3 +117,13 @@ container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
+
+    footer nav a{
+        display:flex;
+        justify-content:flex-start;
+        background:black;
+        border:2px solid black;
+    }
+    .end{
+        background:black;
+    }
