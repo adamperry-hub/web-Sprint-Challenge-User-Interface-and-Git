@@ -80,11 +80,14 @@ section{
         align-content:space-evenly;
          
     }
-    
+.text-container{
+    border-bottom: 1px dashed black;
+}
     
    div .firstrow {
        display:flex;
-       flex-direction-row;
+       flex-direction:row;
+       
      
 }
 .container-about-page{
@@ -92,8 +95,6 @@ section{
     height:20%;
     border-bottom: 1px dashed black;
 }
-div {
-  
     
 }
 p {
