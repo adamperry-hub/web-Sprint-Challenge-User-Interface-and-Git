@@ -64,7 +64,9 @@ nav a{
     text-decoration: none;
     color:black;
 }
-
+nav img {
+    width:15%;
+}
 
 html, body {
     height: 100%;

@@ -51,9 +51,18 @@ table {
     box-sizing: border-box;
     border:1px solid grey;
 }
-
+h1 {
+    font-size:1.2rem;
+}
+h2 {
+    font-size:1rem;
+}
+p{
+    margin: 2% 0% 4%;
+    font-size:.9rem;
+}
 nav {
-    width:80%;
+    width:76%;
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -68,22 +77,58 @@ nav a{
     width:80%;
     margin:0 auto;
 }
+.bugger{
+    width:100%;
+}
+.about{
+    width:100%;
+    margin:2%;
+    border-bottom:1.5px dashed black;
+    line-height:1.1rem;
+}
+.about h1{
+    font-size:1.1rem;
+    line-height:1.5rem;
+}
+.about p{
+    font-size:.9rem;
+}
+.middle {
+    font-size:.9rem;
+    width:100%;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-evenly;
+}
+.box1{
+    margin:1%;
+    border-bottom:1.5px dashed black;
+    padding-bottom: 4%;
+    padding-top:2%;
+    width:45%;
+}
+.box1 img{
+    width:100%;  
+}
 
+.last{
+    width:100%;
+    margin: 0% 3% 0%
+}
+
+ 
 footer {
     width: 100%;
     background: black;
 }
 
-footer nav {
+footer nav a{
     width: 100%;
     display: flex;
-   
-   
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
+    margin:15px 15px 15px -30px;
+    font-size:.7rem;
+    justify-content:flex-start;
     color: white;
     text-decoration: none;
 }
+
