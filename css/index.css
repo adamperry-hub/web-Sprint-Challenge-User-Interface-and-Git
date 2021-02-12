@@ -53,7 +53,7 @@ table {
 }
 
 nav {
-    width:80%;
+    width:76%;
     display:flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -87,7 +87,7 @@ p {
 }
 
 .image{
-    width:100%;
+    width:98%;
     margin:2% ;
     
 }
