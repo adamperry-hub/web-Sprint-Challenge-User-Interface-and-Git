@@ -49,7 +49,22 @@ table {
 
 * {
     box-sizing: border-box;
+    border:1px solid grey;
 }
+
+nav {
+    width:80%;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 110px 20px 100px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
 
 html, body {
     height: 100%;
@@ -67,10 +82,15 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
+.image{
+    width:100%;
+    margin:2% ;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
