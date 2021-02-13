@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    border:1px solid grey;
+}
+h1 {
+    font-size:1.2rem;
+}
+h2 {
+    font-size:1rem;
+}
+p{
+    margin: 2% 0% 4%;
+    font-size:.9rem;
+}
+nav {
+    width:76%;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 110px 20px 100px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+.container-about-page{
+    width:80%;
+    margin:0 auto;
+}
+.bugger{
+    width:100%;
+}
+.about{
+    width:100%;
+    margin:2%;
+    border-bottom:1.5px dashed black;
+    line-height:1.1rem;
+}
+.about h1{
+    font-size:1.1rem;
+    line-height:1.5rem;
+}
+.about p{
+    font-size:.9rem;
+}
+.middle {
+    font-size:.9rem;
+    width:100%;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-evenly;
+}
+.box1{
+    margin:1%;
+    border-bottom:1.5px dashed black;
+    padding-bottom: 4%;
+    padding-top:2%;
+    width:45%;
+}
+
+.box1 img{
+    width:100%;  
+}
+
+.last{
+    width:100%;
+    margin: 0% 3% 0%
+}
+
+ 
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav a{
+    width: 100%;
+    display: flex;
+    margin:15px 15px 15px -30px;
+    font-size:.7rem;
+    justify-content:flex-start;
+    color: white;
+    text-decoration: none;
+}
+
